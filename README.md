@@ -151,6 +151,28 @@ The application will start on `http://localhost:8080`.
     ]
     ```
 
+## Testing with Postman
+
+To test the API endpoints, you can use [Postman](https://www.postman.com/), a popular tool for API testing.
+
+1. **Install Postman:**
+   - Download and install Postman from [here](https://www.postman.com/downloads/).
+
+2. **Create a new request in Postman:**
+   - Open Postman and create a new request.
+   - Set the request method (GET, POST) and enter the URL (e.g., `http://localhost:8080/add`).
+
+3. **Set Headers (if required):**
+   - For POST requests, set the `Content-Type` header to `application/json`.
+
+4. **Enter the request body:**
+   - For POST requests, switch to the "Body" tab and select "raw".
+   - Enter the JSON data in the body section.
+
+5. **Send the request:**
+   - Click on the "Send" button to send the request.
+   - Check the response section for the API response.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -160,4 +182,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
 - [H2 Database](https://www.h2database.com/)
-
+- [Postman](https://www.postman.com/)
+![Screenshot (225)](https://github.com/sidz111/Employee-management-using-Spring-Boot/assets/119784108/77623e75-2bbd-4068-be26-63b1a3e7e113)
+![Screenshot (226)](https://github.com/sidz111/Employee-management-using-Spring-Boot/assets/119784108/9a1d206a-c83c-4d4a-a2cc-47ecda50f117)
+![Screenshot (227)](https://github.com/sidz111/Employee-management-using-Spring-Boot/assets/119784108/11379d4d-2e2b-46f9-94a7-17756dc26760)
